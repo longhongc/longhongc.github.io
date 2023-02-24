@@ -39,7 +39,6 @@ html_static_path = ['_static']
 
 html_css_files = ['custom.css']
 
-
 html_logo = 'images/eye_human.png'
 html_favicon = 'images/eye.png'
 
