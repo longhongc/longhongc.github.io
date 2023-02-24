@@ -16,7 +16,7 @@ About me
      </blockquote>
    </div>
 
-.. container:: twocol
+.. container:: twocol-responsive
 
    .. container:: leftside
 
@@ -30,7 +30,7 @@ About me
    .. container:: rightside
 
       .. figure:: images/Chang-Hong_Chen.jpg
-         :class: align-right
+         :align: right
 
 .. toctree::
    :caption: Personal 
