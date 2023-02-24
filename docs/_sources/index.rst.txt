@@ -16,7 +16,13 @@ About me
      </blockquote>
    </div>
 
-.. grid::
+.. grid:: 1 1 2 2
+   :reverse:
+
+   .. grid-item::
+
+       .. figure:: images/Chang-Hong_Chen.jpg
+          :align: right
 
    .. grid-item::
 
@@ -26,11 +32,7 @@ About me
        robotics engineer who specializes in the architecture of robotics systems, from hardware mechanical 
        and electrical design to software and artificial intelligence.
 
-   .. grid-item::
-
-       .. figure:: images/Chang-Hong_Chen.jpg
-          :align: right
-
+   
 .. toctree::
    :caption: Personal 
    :hidden:
