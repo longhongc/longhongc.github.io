@@ -25,6 +25,7 @@ About me
       :columns: 12 12 5 5
 
        .. figure:: images/Chang-Hong_Chen.jpg
+          :align: center
 
    .. grid-item::
       :columns: 12 12 7 7
