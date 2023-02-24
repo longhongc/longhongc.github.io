@@ -22,7 +22,7 @@ About me
    :reverse:
 
    .. grid-item::
-      :columns: 5
+      :columns: 12 12 5 5
 
        .. figure:: images/Chang-Hong_Chen.jpg
 
