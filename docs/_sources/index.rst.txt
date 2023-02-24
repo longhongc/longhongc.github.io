@@ -27,7 +27,7 @@ About me
        .. figure:: images/Chang-Hong_Chen.jpg
 
    .. grid-item::
-      :columns: 7
+      :columns: 12 12 7 7
 
        I'm Chang-Hong Chen, a master's student in Robotics at the University of Maryland, College Park.
        My passion lies in software development for robotics systems, and I have worked on several projects,
