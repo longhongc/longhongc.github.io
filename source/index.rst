@@ -36,22 +36,49 @@ About me
        robotics engineer who specializes in the architecture of robotics systems, from hardware mechanical 
        and electrical design to software and artificial intelligence.
 
+
+Education
+************************************************
+
+Experiences
+************************************************
+
+Skills
+************************************************
+
+Interest
+************************************************
+
+
+Keywords
+************************************************
+
+Contact
+************************************************
    
 .. toctree::
    :caption: Personal 
+   :maxdepth: 2
    :hidden:
 
    self
 
 .. toctree::
    :caption: Projects 
+   :maxdepth: 2
    :hidden:
 
-   test
+   Projects/cv
+   Projects/math
+   Projects/ml
+   Projects/planning
+   Projects/simulation
 
 .. toctree::
    :caption: Learnings 
    :hidden:
+
+   Projects/test
 
 .. toctree::
    :caption: Life 
