@@ -5,7 +5,7 @@
 
 .. _documentation_home:
 
-About me
+Welcome to Chang-Hong Chen's space
 ===============================================
 
 .. raw:: html
@@ -15,8 +15,6 @@ About me
        Pursue excellence, and success will follow
      </blockquote>
    </div>
-
-.. Split
 
 .. grid:: 1 1 2 2
    :reverse:
@@ -37,52 +35,40 @@ About me
        and electrical design to software and artificial intelligence.
 
 
-Education
-************************************************
+.. grid:: 1 1 2 2
 
-Experiences
-************************************************
-
-Skills
-************************************************
-
-Interest
-************************************************
-
-
-Keywords
-************************************************
-
-Contact
-************************************************
+   .. grid-item::
    
-.. toctree::
-   :caption: Personal 
-   :maxdepth: 2
-   :hidden:
+      .. toctree::
+         :caption: Personal 
 
-   self
+         about_me
 
-.. toctree::
-   :caption: Projects 
-   :maxdepth: 2
-   :hidden:
 
-   Projects/cv
-   Projects/math
-   Projects/ml
-   Projects/planning
-   Projects/simulation
+   .. grid-item::
 
-.. toctree::
-   :caption: Learnings 
-   :hidden:
+      .. toctree::
+         :caption: Projects 
+         :maxdepth: 2
 
-   Projects/test
+         Projects/cv
+         Projects/math
+         Projects/ml
+         Projects/planning
+         Projects/simulation
+
+   .. grid-item::
+
+      .. toctree::
+         :caption: Learnings 
+         :maxdepth: 1
+
+         Projects/test
 
 .. toctree::
    :caption: Life 
    :hidden:
+   :maxdepth: 2
 
 
 
