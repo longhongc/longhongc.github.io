@@ -1,3 +1,5 @@
+![Docs statas](https://github.com/longhongc/longhongc.github.io/actions/workflows/documentation.yaml/badge.svg)
+
 # longhongc.github.io
 This is my portfolio webpage.  
 It is created by [Sphinx](https://www.sphinx-doc.org/en/master/) using [Read-the-Docs](https://docs.readthedocs.io/en/stable/index.html) style.  
