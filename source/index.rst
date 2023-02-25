@@ -41,6 +41,7 @@ Welcome to Chang-Hong Chen's space
    
       .. toctree::
          :caption: Personal 
+         :maxdepth: 2
 
          about_me
 
