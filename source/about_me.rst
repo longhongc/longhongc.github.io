@@ -206,36 +206,39 @@ Skills
 - Programming
 
 .. grid:: 5 5 10 10 
-
    
    .. grid-item::
 
       .. figure:: images/logo/c-plus-plus-logo.png
+         :align: center
 
-         C++ 11/14/17
+         C++
 
    .. grid-item::
 
       .. figure:: images/logo/python.png
+         :align: center
         
          Python
 
    .. grid-item::
 
       .. figure:: images/logo/console.png
+         :align: center
         
          Bash
 
    .. grid-item::
 
       .. figure:: images/logo/c-programming.png
+         :align: center
 
          C
-
 
    .. grid-item::
 
       .. figure:: images/logo/matlab.png
+         :align: center
         
          Matlab
 
@@ -246,30 +249,35 @@ Skills
    .. grid-item::
 
       .. figure:: images/logo/git.png
+         :align: center
         
          Git
 
    .. grid-item::
 
       .. figure:: images/logo/docker.png
+         :align: center
         
          Docker
    
    .. grid-item::
 
       .. figure:: images/logo/google-logo.png
+         :align: center
         
          Gtest
 
    .. grid-item::
 
       .. figure:: images/logo/cmake.png
+         :align: center
         
          CMake
 
    .. grid-item::
 
       .. figure:: images/logo/pytorch.png
+         :align: center
         
          Pytorch
 

@@ -20,5 +20,11 @@
 }
 
 .wy-nav-content {
-    max-width: 1080px !important;
+  max-width: 1080px !important;
+}
+
+figcaption .caption-text {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
 }
