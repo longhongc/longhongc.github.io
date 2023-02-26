@@ -31,6 +31,8 @@ Kick Robotics
 +-----------------+------------------------+---------------------+----------------------+
 | Robotics Intern |  Warehouse bot project |  Bethesda, Maryland | Sept 2022 - Dec 2022 |
 +-----------------+------------------------+---------------------+----------------------+
+| **Skills:**  C++, ROS2, SLAM, Robot Navigation, Nav2, Slam Toolbox, Gazebo, Unit Test |
++---------------------------------------------------------------------------------------+
 
 Designed and supported software for a warehouse bot project          
 
@@ -62,6 +64,8 @@ Vecna Robotics
 +--------------------------+------------------------+------------------------+---------------------+
 | Robotics Software Intern |       Autonomy         | Waltham, Massachusetts | June 2022 - Aug 2022|
 +--------------------------+------------------------+------------------------+---------------------+
+| **Skills:**   Python, C++, ROS, IK, FK, IMU, Linear Algebra, Numerical Method, Computer Vision   |
++--------------------------------------------------------------------------------------------------+
 
 Implemented new features on current robot product
 
@@ -97,7 +101,7 @@ Fixed bugs and improved existing workflow
       :columns: 12 12 7 7
 
       .. figure:: images/stitched_final.jpg
-         :width: 80%
+         :width: 90%
 
          Automatic barcode image stiching with accurate focus coordinate control.
 
@@ -114,6 +118,31 @@ National Tsing Hua University, Department of Electrical Engineering
 |                    |                                 |                      |
 |                    |                                 | July 2019 - Jan 2020 |
 +--------------------+---------------------------------+----------------------+
+| **Skills:**  Python, ROS, TCP, PDDL, VAE, Motion Planning, Webots           |
++-----------------------------------------------------------------------------+
+
+Researched on integrated task and motion planning of robotics arm
+
+- Integrated varieational autoencoder sampling-based motion planning with PDDLStream, an off-the-shelf planning framework
+
+Collaborated in a Ministry of Science and Technology (MOST) project of anthropomorphic robot arm application
+
+- Modified the robot arm software framework by using ROS and TCP socket to establish connections between Webots
+
+.. grid:: 1 1 2 2
+
+   .. grid-item::
+
+      .. figure:: images/sampling_traj.gif
+
+         Sampling collision-free trajectory to move beer bottle to goal region.
+
+   .. grid-item::
+
+      .. figure:: images/start_plan.gif
+
+         Executing successful plan from the sampling history.
+
 
 Delta Electronics
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -123,21 +152,126 @@ Delta Electronics
 +-----------------+------------------------+----------------------+
 | Software Intern | Delta Research Center  | July 2020 - Aug 2020 |
 +-----------------+------------------------+----------------------+
+| **Skills:**  Python, ROS, Docker, rosbridge, OpenCV, MoveIt     |
++-----------------------------------------------------------------+
+
+Designed a modularized robot arm face tracking system
+
+- Implemented a web UI, a vision module with OpenCV, a control module with MoveIt, and integrated using ROS and Docker
+
+Evaluated and examined novel software tools for industrial robot applications, including Docker, WSL2, and ROS
+
+.. figure:: images/delta_arm.gif
+
+   Face tracking robot arm
 
 
 National Tsing Hua University, Department of Power Mechanical Engineering
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-+-------------------------------+---------------+
-| **Position**                  |  **Duration** | 
-+-------------------------------+---------------+
-| Undergrduate capstone project |    2018       |
-+-------------------------------+---------------+
++-------------------------------+-------------------------------------------------------------+
+| **Position**                  |  **Duration**                                               | 
++-------------------------------+-------------------------------------------------------------+
+| Undergrduate capstone project |    2018                                                     |
++-------------------------------+-------------------------------------------------------------+
+| **Skills:**  Python, Matlab, Scikit-Learn, FFT, MEMS sensor, Arduino, Bluetooth, Mobile Apps| 
++---------------------------------------------------------------------------------------------+
+
+Conducted research and designed a lathe fault diagnose system
+
+- Analyzed vibration signal to determine the different states of the lathe machine with Matlab and AI algorithms from Scikit-learn.
+
+- Developed the system that preprocesses the data collected from a MEMS sensor by applying FFT on Arduino, and transmits the data through Bluetooth to a mobile application for data visualization.
+
+.. grid:: 1 1 2 2
+
+   .. grid-item::
+
+      .. figure:: images/sensor_on_lathe.jpg
+
+         6-axis accelerometer gyroscope sensor on lathe machine
+
+   .. grid-item::
+
+      .. figure:: images/vibration_matlab.png
+
+         Matlab interface for analyzing vibration
+
 
 ------------
 
 Skills
 ************************************************
+
+- Programming
+
+.. grid:: 5 5 10 10 
+
+   
+   .. grid-item::
+
+      .. figure:: images/logo/c-plus-plus-logo.png
+
+         C++ 11/14/17
+
+   .. grid-item::
+
+      .. figure:: images/logo/python.png
+        
+         Python
+
+   .. grid-item::
+
+      .. figure:: images/logo/console.png
+        
+         Bash
+
+   .. grid-item::
+
+      .. figure:: images/logo/c-programming.png
+
+         C
+
+
+   .. grid-item::
+
+      .. figure:: images/logo/matlab.png
+        
+         Matlab
+
+- Tools
+
+.. grid:: 5 5 10 10 
+   
+   .. grid-item::
+
+      .. figure:: images/logo/git.png
+        
+         Git
+
+   .. grid-item::
+
+      .. figure:: images/logo/docker.png
+        
+         Docker
+   
+   .. grid-item::
+
+      .. figure:: images/logo/google-logo.png
+        
+         Gtest
+
+   .. grid-item::
+
+      .. figure:: images/logo/cmake.png
+        
+         CMake
+
+   .. grid-item::
+
+      .. figure:: images/logo/pytorch.png
+        
+         Pytorch
 
 Interest
 ************************************************
@@ -151,4 +285,9 @@ test
 
 Contact
 ************************************************
+
+.. raw:: html
+
+   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSckdQdQvX0dTwKMm9cdV2EvOASM9ti8jv_pmn6UzRzn_FbsEg/viewform?embedded=true" width="640" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
 
