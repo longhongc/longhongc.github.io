@@ -350,10 +350,41 @@ Skills
 Interest
 ************************************************
 
-Keywords
-************************************************
+My professional interest mainly lies in 3 categories:
 
-test 
+1. **Mobile-manipulator**
+
+   The field of robotics has made remarkable progress in recent times,
+   yet most of the advancements are confined to controlled settings, such as laboratories and high-end warehouses.
+   I envision a world where humans and robots work together in a seamless and collaborative manner, effortlessly tackling daily tasks.
+   However, for robotics to truly become an integral part of our lives and enable effective collaboration with humans, the emergence of general-purpose robots is crucial.
+   Among various types of robots, mobile manipulators are especially well-suited for this role due to their flexibility and mobility.
+
+2. **Motion Planning and Task Planning**
+
+   I have always enjoyed games like chess or board games, 
+   which require us to effectively utilize our resources in order to achieve a goal.
+   To me, the field of planning in robotics is no different. 
+   Robots try every combination of actions to achieve a goal or find the minimum cost of something.
+   Perhaps, our brain is doing the same job with a fuzzy neural network-like mechanism, as we always try to maximize our happiness in life.
+   By delving deeper into this field, we may gain a better understanding of ourselves.
+
+3. **Architecture for Robotics Software**
+
+   Designing software for robotics is a complex and specialized task that requires a unique set of skills.
+   Unlike traditional desktop applications, robotics software must effectively communicate with low-level hardware,
+   while providing intuitive interfaces for humans to interact with. As technology advances,
+   the software must also be scalable and adaptable, capable of accommodating changes to hardware components or algorithms.
+   This challenging and dynamic field fascinates me, and I'm eager to delve deeper into it.
+
+
+My general interests are reading, learning, and playing computer games.
+
+- My favorite book: *Surely You're Joking, Mr. Feynman!*
+ 
+- My favorite movie: *Interstellar*, *3 Idiots*
+
+- My favorite computer game: **League of Legends**
 
 ------------
 

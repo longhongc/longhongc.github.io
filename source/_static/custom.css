@@ -29,8 +29,8 @@ figcaption .caption-text {
   width: 100%;
 }
 
-@media (max-width: 767px) {
-  .contact-form iframe {
+@media (max-width: 1080px) {
+  iframe {
     width: 100% !important;
     height: auto !important;
   }
