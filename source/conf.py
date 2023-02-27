@@ -14,7 +14,9 @@ release = '0.0.1'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ["sphinx_design"]
+extensions = [
+  'sphinx_design'
+]
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
@@ -37,11 +39,21 @@ html_theme_options = {
 # html_theme_path = ['_themes']
 html_static_path = ['_static']
 
-html_css_files = ['custom.css']
+html_css_files = [
+  'custom.css'
+]
+
 html_js_files = ['custom.js']
 
 html_logo = 'images/eye_human.png'
 html_favicon = 'images/eye.png'
 
-
 html_show_sourcelink = False
+
+html_context = {
+    "display_github": True, # Integrate GitHub
+    "github_user": "longhongc", # Username
+    "github_repo": "longhongc.github.io", # Repo name
+    "github_version": "main", # Version
+    "conf_py_path": "/source/", # Path in the checkout to the docs root
+}

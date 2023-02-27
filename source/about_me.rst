@@ -223,7 +223,7 @@ Skills
 
    .. grid-item::
 
-      .. figure:: images/logo/console.png
+      .. figure:: images/logo/bash.png
          :align: center
         
          Bash
@@ -242,10 +242,10 @@ Skills
         
          Matlab
 
-- Tools
+- Tools & Library
 
 .. grid:: 5 5 10 10 
-   
+
    .. grid-item::
 
       .. figure:: images/logo/git.png
@@ -269,17 +269,83 @@ Skills
 
    .. grid-item::
 
-      .. figure:: images/logo/cmake.png
+      .. figure:: images/logo/cmake.jpg
          :align: center
+         :width: 68%
         
          CMake
-
+  
    .. grid-item::
 
       .. figure:: images/logo/pytorch.png
          :align: center
+         :width: 68%
         
          Pytorch
+
+   .. grid-item::
+
+      .. figure:: images/logo/opencv.png
+         :align: center
+         :width: 70%
+        
+         OpenCV
+
+   .. grid-item::
+
+      .. figure:: images/logo/eigen.png
+         :align: center
+         :width: 68%
+        
+         Eigen
+         
+- Robotics
+
+.. grid:: 5 5 10 10 
+
+   .. grid-item::
+
+      .. figure:: images/logo/ROS-ROS2.png
+         :align: center
+         :width: 110%
+
+         ROS
+
+
+   .. grid-item::
+
+      .. figure:: images/logo/webots.png
+         :align: center
+         :width: 68%
+
+         Webots
+
+   .. grid-item::
+
+      .. figure:: images/logo/gazebo.png
+         :align: center
+         :width: 68%
+
+         Gazebo
+
+   .. grid-item::
+
+      .. figure:: images/logo/rviz.png
+         :align: center
+
+         RVIZ
+
+- Domain Knowledge
+
+:bdg-primary-line:`Motion Planning`
+:bdg-primary-line:`Robot Simulation`
+:bdg-primary-line:`Robot Kinematics & Dynamics`
+:bdg-primary-line:`Machine Learning`
+:bdg-primary-line:`Classical Computer Vision`
+
+:bdg-primary-line:`Control Theory`
+:bdg-primary-line:`Linear Algebra`
+:bdg-primary-line:`Probablistic`
 
 Interest
 ************************************************
@@ -291,11 +357,14 @@ test
 
 ------------
 
+
+.. _contact_form:
+
 Contact
 ************************************************
 
 .. raw:: html
 
-   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSckdQdQvX0dTwKMm9cdV2EvOASM9ti8jv_pmn6UzRzn_FbsEg/viewform?embedded=true" width="640" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+   <iframe id="contact-form" src="https://docs.google.com/forms/d/e/1FAIpQLSckdQdQvX0dTwKMm9cdV2EvOASM9ti8jv_pmn6UzRzn_FbsEg/viewform?embedded=true" width="640" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 

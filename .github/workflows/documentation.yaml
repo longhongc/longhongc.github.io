@@ -2,13 +2,16 @@ name: Docs
 on: [push, pull_request, workflow_dispatch]
 jobs:
   docs:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
       - name: Install dependencies
         run: |
-          pip3 install sphinx sphinx_rtd_theme sphinx-design
+          pip3 install \
+            sphinx==5.3.0 \
+            sphinx_rtd_theme==1.2.0 \
+            sphinx-design==0.3.0
 
       - name: Sphinx build
         run: |

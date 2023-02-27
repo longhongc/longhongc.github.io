@@ -28,17 +28,35 @@ Welcome to Chang-Hong Chen's space
    .. grid-item::
       :columns: 12 12 7 7
 
-       I'm Chang-Hong Chen, a master's student in Robotics at the University of Maryland, College Park.
+       Welcome to my virtual corner of the world! I'm Chang-Hong Chen, a master's student in Robotics at the University of Maryland, College Park.
        My passion lies in software development for robotics systems, and I have worked on several projects,
        including the R&D of software for mobile robots and manipulators. My ultimate goal is to become a 
        robotics engineer who specializes in the architecture of robotics systems, from hardware mechanical 
        and electrical design to software and artificial intelligence.
 
+       As a lifelong learner, I am excited to share my knowledge
+       and projects with you through this platform. In this portfolio, you'll find a collection of my work 
+       that highlights my interests and skills. Whether you are an employer, collaborator, or fellow enthusiast,
+       I invite you to explore my projects and get in touch if you have any questions or comments.
+       You can use this :ref:`Contact Form <contact_form>` or connect with me on LinkedIn. Thank you for visiting, and I hope you enjoy your stay!
+
+.. grid:: 5 5 12 12
+
+   .. grid-item::
+
+      .. image:: images/logo/github.png
+         :target: https://github.com/longhongc
+
+   .. grid-item::
+
+      .. image:: images/logo/linkedin.png
+         :target: https://www.linkedin.com/in/longhongc/
+
 
 .. grid:: 1 1 2 2
 
    .. grid-item::
-   
+
       .. toctree::
          :caption: Personal 
          :maxdepth: 2
