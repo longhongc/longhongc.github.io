@@ -9,7 +9,7 @@
 project = 'longhongc.github.io'
 copyright = '2023, Chang-Hong Chen'
 author = 'Chang-Hong Chen'
-release = '0.0.1'
+release = '0.1.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
