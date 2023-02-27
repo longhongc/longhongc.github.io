@@ -32,5 +32,6 @@ figcaption .caption-text {
 @media (max-width: 1080px) {
   iframe {
     width: 100% !important;
+    height: 900px;
   }
 }
