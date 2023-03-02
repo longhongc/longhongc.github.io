@@ -42,9 +42,10 @@ Welcome to Chang-Hong Chen's space
 
 .. grid:: 5 5 12 12
 
-   .. grid-item::
+   .. grid-item:: 
 
       .. image:: images/logo/github.png
+         :width: 80%
          :target: https://github.com/longhongc
 
    .. grid-item::
@@ -52,7 +53,12 @@ Welcome to Chang-Hong Chen's space
       .. image:: images/logo/linkedin.png
          :target: https://www.linkedin.com/in/longhongc/
 
+   .. grid-item::
 
+      .. image:: images/logo/resume.png
+         :width: 80%
+         :target: _static/Chang-Hong_Resume_2023.pdf
+      
 .. grid:: 1 1 2 2
 
    .. grid-item::

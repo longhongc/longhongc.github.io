@@ -15,7 +15,11 @@ release = '0.1.0'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-  'sphinx_design'
+  'sphinx_design',
+  'myst_parser',
+  'sphinx_new_tab_link',
+  'sphinx.ext.mathjax',
+  'sphinx-mathjax-offline'
 ]
 
 templates_path = ['_templates']
@@ -57,3 +61,20 @@ html_context = {
     "github_version": "main", # Version
     "conf_py_path": "/source/", # Path in the checkout to the docs root
 }
+
+myst_enable_extensions = [
+    "dollarmath",
+    "amsmath",
+    "deflist",
+    "fieldlist",
+    "html_admonition",
+    "html_image",
+    "colon_fence",
+    "smartquotes",
+    "replacements",
+    "strikethrough",
+    "substitution",
+    "tasklist",
+    "attrs_inline",
+    "attrs_block",
+]
