@@ -16,10 +16,10 @@ release = '0.1.0'
 
 extensions = [
   'sphinx_design',
-  'myst_parser',
   'sphinx_new_tab_link',
-  'sphinx.ext.mathjax',
-  'sphinx-mathjax-offline'
+  # 'myst_parser',
+  # 'sphinx.ext.mathjax',
+  # 'sphinx-mathjax-offline'
 ]
 
 templates_path = ['_templates']
