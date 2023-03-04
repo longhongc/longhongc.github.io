@@ -62,19 +62,19 @@ html_context = {
     "conf_py_path": "/source/", # Path in the checkout to the docs root
 }
 
-myst_enable_extensions = [
-    "dollarmath",
-    "amsmath",
-    "deflist",
-    "fieldlist",
-    "html_admonition",
-    "html_image",
-    "colon_fence",
-    "smartquotes",
-    "replacements",
-    "strikethrough",
-    "substitution",
-    "tasklist",
-    "attrs_inline",
-    "attrs_block",
-]
+# myst_enable_extensions = [
+#     "dollarmath",
+#     "amsmath",
+#     "deflist",
+#     "fieldlist",
+#     "html_admonition",
+#     "html_image",
+#     "colon_fence",
+#     "smartquotes",
+#     "replacements",
+#     "strikethrough",
+#     "substitution",
+#     "tasklist",
+#     "attrs_inline",
+#     "attrs_block",
+# ]
