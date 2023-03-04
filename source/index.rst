@@ -74,11 +74,11 @@ Welcome to Chang-Hong Chen's space
 
       .. toctree::
          :caption: Projects 
-         :maxdepth: 2
+         :maxdepth: 1
 
          Projects/cv
-         Projects/math
          Projects/ml
+         Projects/math
          Projects/planning
          Projects/simulation
 
@@ -88,7 +88,7 @@ Welcome to Chang-Hong Chen's space
          :caption: Learnings 
          :maxdepth: 1
 
-         Projects/test
+         Kalman Filter <https://longhongc.notion.site/Kalman-Filter-48e71f65d6334cda819a8394cef5ab1c>
 
 .. toctree::
    :caption: Life 

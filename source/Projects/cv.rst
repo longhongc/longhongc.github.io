@@ -30,7 +30,7 @@ Data fitting with Least Square, Total Least Square, and RANSAC
 
       .. image:: cv/data_fitting_ransac.png
 
-See `report  <https://github.com/longhongc/ENPM673-computer-vision-hw/blob/main/hw1/ENPM673_Homework1_Report.pdf>`__ for details
+`Read more  <https://github.com/longhongc/ENPM673-computer-vision-hw/blob/main/hw1/ENPM673_Homework1_Report.pdf>`__
 
 AR Tag Decoding 
 ************************************************
@@ -91,7 +91,7 @@ AR Tag Decoding
       .. image:: cv/ar_tag_decode_10.png
          :width: 80%
 
-See `report <https://github.com/longhongc/ENPM673-computer-vision-hw/blob/main/project1/ENPM673_Project1.pdf>`__ for details
+`Read more <https://github.com/longhongc/ENPM673-computer-vision-hw/blob/main/project1/ENPM673_Project1.pdf>`__
 
 Histogram Equalization 
 ************************************************
@@ -110,7 +110,7 @@ Histogram Equalization
 
       .. image:: cv/histogram_after.jpg
 
-See `report <https://github.com/longhongc/ENPM673-computer-vision-hw/blob/main/project2/ENPM673_Project2.pdf>`__ for details
+`Read more <https://github.com/longhongc/ENPM673-computer-vision-hw/blob/main/project2/ENPM673_Project2.pdf>`__
 
 K-means 
 ************************************************
@@ -131,7 +131,7 @@ K-means
       .. image:: cv/kmeans_after.jpg
          :width: 50%
 
-See `report <https://github.com/longhongc/ENPM673-computer-vision-hw/blob/main/midterm/ENPM673_Midterm.pdf>`__ for details
+`Read more <https://github.com/longhongc/ENPM673-computer-vision-hw/blob/main/midterm/ENPM673_Midterm.pdf>`__
 
 Image Stiching
 ************************************************
@@ -165,14 +165,14 @@ Image Stiching
       .. image:: cv/image_stitching_match_points.jpg
 
 
-See `report <https://github.com/longhongc/ENPM673-computer-vision-hw/blob/main/midterm/ENPM673_Midterm.pdf>`__ for details
+`Read more <https://github.com/longhongc/ENPM673-computer-vision-hw/blob/main/midterm/ENPM673_Midterm.pdf>`__
 
 Car Lane Detection
 ************************************************
 
 .. image:: cv/car_lane_detection.gif
 
-See `report <https://github.com/longhongc/ENPM673-computer-vision-hw/blob/main/project2/ENPM673_Project2.pdf>`__ for details
+`Read more <https://github.com/longhongc/ENPM673-computer-vision-hw/blob/main/project2/ENPM673_Project2.pdf>`__
 
 Stereo Depth Iamge
 ************************************************
@@ -223,4 +223,4 @@ Stereo Depth Iamge
 
       .. image:: cv/stereo_depth_heatmap.png
 
-See `report <https://github.com/longhongc/ENPM673-computer-vision-hw/blob/main/project3/ENPM673_Project3.pdf>`__ for details
+`Read more <https://github.com/longhongc/ENPM673-computer-vision-hw/blob/main/project3/ENPM673_Project3.pdf>`__
