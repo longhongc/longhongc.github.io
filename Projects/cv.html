@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Computer Vision &mdash; longhongc.github.io 0.1.0 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/eye.png"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script src="../_static/design-tabs.js"></script>
+        <script src="../_static/custom.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Machine Learning" href="ml.html" />
+    <link rel="prev" title="About me" href="../about_me.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            longhongc.github.io
+              <img src="../_static/eye_human.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Personal</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../about_me.html">About me</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../about_me.html#education">Education</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../about_me.html#experiences">Experiences</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../about_me.html#kick-robotics">Kick Robotics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../about_me.html#vecna-robotics">Vecna Robotics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../about_me.html#national-tsing-hua-university-department-of-electrical-engineering">National Tsing Hua University, Department of Electrical Engineering</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../about_me.html#delta-electronics">Delta Electronics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../about_me.html#national-tsing-hua-university-department-of-power-mechanical-engineering">National Tsing Hua University, Department of Power Mechanical Engineering</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../about_me.html#skills">Skills</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../about_me.html#interest">Interest</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../about_me.html#contact">Contact</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Projects</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Computer Vision</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#data-fitting">Data Fitting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ar-tag-decoding">AR Tag Decoding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#histogram-equalization">Histogram Equalization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#k-means">K-means</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#image-stiching">Image Stiching</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#car-lane-detection">Car Lane Detection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#stereo-depth-iamge">Stereo Depth Iamge</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ml.html">Machine Learning</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="ml.html#engergy-consumption-prediction-for-refrigerant-flow-system">Engergy Consumption Prediction for Refrigerant Flow System</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ml.html#face-recognition">Face Recognition</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="math.html">Math</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="math.html#svd-implementation">SVD implementation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="planning.html">Planning</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="planning.html#d-motion-planning">2D Motion Planning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planning.html#puzzle">8 puzzle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planning.html#afforestation-robot">Afforestation Robot</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="simulation.html">Simulation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="simulation.html#urban-search-and-rescue">Urban Search and Rescue</a></li>
+<li class="toctree-l2"><a class="reference internal" href="simulation.html#mobile-industrial-manipulator">Mobile Industrial Manipulator</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Learnings</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://longhongc.notion.site/Kalman-Filter-48e71f65d6334cda819a8394cef5ab1c" rel="noopener noreferrer" target="_blank">Kalman Filter</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">longhongc.github.io</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Computer Vision</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/longhongc/longhongc.github.io/blob/main/source/Projects/cv.rst" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="computer-vision">
+<h1>Computer Vision<a class="headerlink" href="#computer-vision" title="Permalink to this heading"></a></h1>
+<div class="contents local topic" id="table-of-contents">
+<p class="topic-title">Table of Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#data-fitting" id="id1">Data Fitting</a></li>
+<li><a class="reference internal" href="#ar-tag-decoding" id="id2">AR Tag Decoding</a></li>
+<li><a class="reference internal" href="#histogram-equalization" id="id3">Histogram Equalization</a></li>
+<li><a class="reference internal" href="#k-means" id="id4">K-means</a></li>
+<li><a class="reference internal" href="#image-stiching" id="id5">Image Stiching</a></li>
+<li><a class="reference internal" href="#car-lane-detection" id="id6">Car Lane Detection</a></li>
+<li><a class="reference internal" href="#stereo-depth-iamge" id="id7">Stereo Depth Iamge</a></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="data-fitting">
+<h2><a class="toc-backref" href="#id1">Data Fitting</a><a class="headerlink" href="#data-fitting" title="Permalink to this heading"></a></h2>
+<p>Data fitting with Least Square, Total Least Square, and RANSAC</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<ul class="simple">
+<li>Least Square</li>
+</ul>
+<img alt="../_images/data_fitting_ls.png" src="../_images/data_fitting_ls.png" />
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<ul class="simple">
+<li>Total Least Square</li>
+</ul>
+<img alt="../_images/data_fitting_tls.png" src="../_images/data_fitting_tls.png" />
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<ul class="simple">
+<li>RANSAC</li>
+</ul>
+<img alt="../_images/data_fitting_ransac.png" src="../_images/data_fitting_ransac.png" />
+</div>
+</div>
+</div>
+<p><a class="reference external" href="https://github.com/longhongc/ENPM673-computer-vision-hw/blob/main/hw1/ENPM673_Homework1_Report.pdf" rel="noopener noreferrer" target="_blank">Read more</a></p>
+</div>
+<div class="section" id="ar-tag-decoding">
+<h2><a class="toc-backref" href="#id2">AR Tag Decoding</a><a class="headerlink" href="#ar-tag-decoding" title="Permalink to this heading"></a></h2>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<ol class="arabic simple">
+<li>Original image</li>
+</ol>
+<img alt="../_images/ar_tag_decode_1.jpg" src="../_images/ar_tag_decode_1.jpg" />
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<ol class="arabic simple" start="2">
+<li>Threshold</li>
+</ol>
+<img alt="../_images/ar_tag_decode_2.jpg" src="../_images/ar_tag_decode_2.jpg" />
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<ol class="arabic simple" start="3">
+<li>Canny edge finding</li>
+</ol>
+<img alt="../_images/ar_tag_decode_3.jpg" src="../_images/ar_tag_decode_3.jpg" />
+</div>
+</div>
+</div>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<ol class="arabic simple" start="4">
+<li>Shi-Tomasi Corner Detector</li>
+</ol>
+<img alt="../_images/ar_tag_decode_4.jpg" src="../_images/ar_tag_decode_4.jpg" />
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<ol class="arabic simple" start="5">
+<li>Find vertics</li>
+</ol>
+<img alt="../_images/ar_tag_decode_5.jpg" src="../_images/ar_tag_decode_5.jpg" />
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<ol class="arabic simple" start="6">
+<li>Find AR tag corners</li>
+</ol>
+<img alt="../_images/ar_tag_decode_6.jpg" src="../_images/ar_tag_decode_6.jpg" />
+</div>
+</div>
+</div>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<ol class="arabic simple" start="7">
+<li>Homography transform to straight pose</li>
+</ol>
+<a class="reference internal image-reference" href="../_images/ar_tag_decode_9.jpg"><img alt="../_images/ar_tag_decode_9.jpg" src="../_images/ar_tag_decode_9.jpg" style="width: 60%;" /></a>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<ol class="arabic simple" start="8">
+<li>Transform to array and decode tag</li>
+</ol>
+<a class="reference internal image-reference" href="../_images/ar_tag_decode_10.png"><img alt="../_images/ar_tag_decode_10.png" src="../_images/ar_tag_decode_10.png" style="width: 80%;" /></a>
+</div>
+</div>
+</div>
+<p><a class="reference external" href="https://github.com/longhongc/ENPM673-computer-vision-hw/blob/main/project1/ENPM673_Project1.pdf" rel="noopener noreferrer" target="_blank">Read more</a></p>
+</div>
+<div class="section" id="histogram-equalization">
+<h2><a class="toc-backref" href="#id3">Histogram Equalization</a><a class="headerlink" href="#histogram-equalization" title="Permalink to this heading"></a></h2>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<ul class="simple">
+<li>Original image</li>
+</ul>
+<img alt="../_images/histogram_before.jpg" src="../_images/histogram_before.jpg" />
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<ul class="simple">
+<li>After historgram equalization</li>
+</ul>
+<img alt="../_images/histogram_after.jpg" src="../_images/histogram_after.jpg" />
+</div>
+</div>
+</div>
+<p><a class="reference external" href="https://github.com/longhongc/ENPM673-computer-vision-hw/blob/main/project2/ENPM673_Project2.pdf" rel="noopener noreferrer" target="_blank">Read more</a></p>
+</div>
+<div class="section" id="k-means">
+<h2><a class="toc-backref" href="#id4">K-means</a><a class="headerlink" href="#k-means" title="Permalink to this heading"></a></h2>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<ul class="simple">
+<li>Original image</li>
+</ul>
+<a class="reference internal image-reference" href="../_images/kmeans_before.png"><img alt="../_images/kmeans_before.png" src="../_images/kmeans_before.png" style="width: 50%;" /></a>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<ul class="simple">
+<li>K-means after 50 iterations</li>
+</ul>
+<a class="reference internal image-reference" href="../_images/kmeans_after.jpg"><img alt="../_images/kmeans_after.jpg" src="../_images/kmeans_after.jpg" style="width: 50%;" /></a>
+</div>
+</div>
+</div>
+<p><a class="reference external" href="https://github.com/longhongc/ENPM673-computer-vision-hw/blob/main/midterm/ENPM673_Midterm.pdf" rel="noopener noreferrer" target="_blank">Read more</a></p>
+</div>
+<div class="section" id="image-stiching">
+<h2><a class="toc-backref" href="#id5">Image Stiching</a><a class="headerlink" href="#image-stiching" title="Permalink to this heading"></a></h2>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<ul class="simple">
+<li>Image A</li>
+</ul>
+<img alt="../_images/image_stitching_A.png" src="../_images/image_stitching_A.png" />
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<ul class="simple">
+<li>Image B</li>
+</ul>
+<img alt="../_images/image_stictching_B.png" src="../_images/image_stictching_B.png" />
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<ul class="simple">
+<li>Stitched image</li>
+</ul>
+<img alt="../_images/image_stitching_stitched_image.jpg" src="../_images/image_stitching_stitched_image.jpg" />
+</div>
+</div>
+</div>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<ul class="simple">
+<li>Matching points</li>
+</ul>
+<img alt="../_images/image_stitching_match_points.jpg" src="../_images/image_stitching_match_points.jpg" />
+</div>
+</div>
+</div>
+<p><a class="reference external" href="https://github.com/longhongc/ENPM673-computer-vision-hw/blob/main/midterm/ENPM673_Midterm.pdf" rel="noopener noreferrer" target="_blank">Read more</a></p>
+</div>
+<div class="section" id="car-lane-detection">
+<h2><a class="toc-backref" href="#id6">Car Lane Detection</a><a class="headerlink" href="#car-lane-detection" title="Permalink to this heading"></a></h2>
+<img alt="../_images/car_lane_detection.gif" src="../_images/car_lane_detection.gif" />
+<p><a class="reference external" href="https://github.com/longhongc/ENPM673-computer-vision-hw/blob/main/project2/ENPM673_Project2.pdf" rel="noopener noreferrer" target="_blank">Read more</a></p>
+</div>
+<div class="section" id="stereo-depth-iamge">
+<h2><a class="toc-backref" href="#id7">Stereo Depth Iamge</a><a class="headerlink" href="#stereo-depth-iamge" title="Permalink to this heading"></a></h2>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<ul class="simple">
+<li>Stereo image left</li>
+</ul>
+<img alt="../_images/stereo_image_left.png" src="../_images/stereo_image_left.png" />
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<ul class="simple">
+<li>Stereo image right</li>
+</ul>
+<img alt="../_images/stereo_image_right.png" src="../_images/stereo_image_right.png" />
+</div>
+</div>
+</div>
+<ul class="simple">
+<li>Epipolar line after rectification</li>
+</ul>
+<a class="reference internal image-reference" href="../_images/stereo_epipolar_line.png"><img alt="../_images/stereo_epipolar_line.png" src="../_images/stereo_epipolar_line.png" style="width: 70%;" /></a>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-4 sd-row-cols-lg-4 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<ul class="simple">
+<li>Disparity image</li>
+</ul>
+<img alt="../_images/stereo_disparity_image.png" src="../_images/stereo_disparity_image.png" />
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<ul class="simple">
+<li>Disparity heatmap</li>
+</ul>
+<img alt="../_images/stereo_disparity_heatmap.png" src="../_images/stereo_disparity_heatmap.png" />
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<ul class="simple">
+<li>Depth image</li>
+</ul>
+<img alt="../_images/stereo_depth_image.png" src="../_images/stereo_depth_image.png" />
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<ul class="simple">
+<li>Depth heatmap</li>
+</ul>
+<img alt="../_images/stereo_depth_heatmap.png" src="../_images/stereo_depth_heatmap.png" />
+</div>
+</div>
+</div>
+<p><a class="reference external" href="https://github.com/longhongc/ENPM673-computer-vision-hw/blob/main/project3/ENPM673_Project3.pdf" rel="noopener noreferrer" target="_blank">Read more</a></p>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Chang-Hong Chen.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
