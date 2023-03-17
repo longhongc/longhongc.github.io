@@ -25,6 +25,18 @@ Planning
 
       .. image:: planning/rrt.png
 
+- RRT with robot dynamic and volume
+
+.. grid:: 1 1 2 2
+
+   .. grid-item::
+
+      .. image:: planning/rrt_with_dynamic.png
+
+   .. grid-item::
+
+      .. image:: planning/rrt_with_dynamic.gif
+
 `Read more  <https://github.com/longhongc/ENAE788V-motion-planning-hw>`__
 
 
