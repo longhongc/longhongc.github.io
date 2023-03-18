@@ -45,12 +45,13 @@ Welcome to Chang-Hong Chen's space
    .. grid-item:: 
 
       .. image:: images/logo/github.png
-         :width: 80%
+         :width: 77%
          :target: https://github.com/longhongc
 
    .. grid-item::
 
       .. image:: images/logo/linkedin.png
+         :width: 80%
          :target: https://www.linkedin.com/in/longhongc/
 
    .. grid-item::

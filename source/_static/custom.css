@@ -35,3 +35,17 @@
     height: 900px;
   }
 }
+
+@media (max-width: 1080px) {
+  .wy-nav-content {
+    padding: 0;
+  }
+
+  .wy-nav-side {
+    border-right: none;
+  }
+
+  .wy-side-scroll {
+    border-right: none;
+  }
+}
