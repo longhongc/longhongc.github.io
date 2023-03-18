@@ -16,33 +16,33 @@ Welcome to Chang-Hong Chen's space
      </blockquote>
    </div>
 
-.. grid:: 1 1 2 2
+.. grid:: 1 1 1 2
    :reverse:
 
    .. grid-item::
-      :columns: 12 12 5 5
+      :columns: 12 12 12 5
 
-       .. figure:: images/Chang-Hong_Chen.jpg
-          :align: center
+      .. figure:: images/Chang-Hong_Chen.jpg
+         :align: center
 
    .. grid-item::
-      :columns: 12 12 7 7
+      :columns: 12 12 12 7
 
-       Welcome to my virtual corner of the world! I'm Chang-Hong Chen, a master's student in Robotics at the University of Maryland, College Park.
-       My passion lies in software development for robotics systems, and I have worked on several projects,
-       including the R&D of software for mobile robots and manipulators. My ultimate goal is to become a 
-       robotics engineer who specializes in the architecture of robotics systems, from hardware mechanical 
-       and electrical design to software and artificial intelligence.
+      Welcome to my virtual corner of the world! I'm Chang-Hong Chen, a master's student in Robotics at the University of Maryland, College Park.
+      My passion lies in software development for robotics systems, and I have worked on several projects,
+      including the R&D of software for mobile robots and manipulators. My ultimate goal is to become a
+      robotics engineer who specializes in the architecture of robotics systems, from hardware mechanical
+      and electrical design to software and artificial intelligence.
 
-       As a lifelong learner, I am excited to share my knowledge
-       and projects with you through this platform. In this portfolio, you'll find a collection of my work 
-       that highlights my interests and skills. Whether you are an employer, collaborator, or fellow enthusiast,
-       I invite you to explore my projects and get in touch if you have any questions or comments.
-       You can use this :ref:`Contact Form <contact_form>` or connect with me on LinkedIn. Thank you for visiting, and I hope you enjoy your stay!
+      As a lifelong learner, I am excited to share my knowledge
+      and projects with you through this platform. In this portfolio, you'll find a collection of my work
+      that highlights my interests and skills. Whether you are an employer, collaborator, or fellow enthusiast,
+      I invite you to explore my projects and get in touch if you have any questions or comments.
+      You can use this :ref:`Contact Form <contact_form>` or connect with me on LinkedIn. Thank you for visiting, and I hope you enjoy your stay!
 
 .. grid:: 5 5 12 12
 
-   .. grid-item:: 
+   .. grid-item::
 
       .. image:: images/logo/github.png
          :width: 77%
@@ -59,13 +59,13 @@ Welcome to Chang-Hong Chen's space
       .. image:: images/logo/resume.png
          :width: 80%
          :target: _static/Chang-Hong_Resume_2023.pdf
-      
+
 .. grid:: 1 1 2 2
 
    .. grid-item::
 
       .. toctree::
-         :caption: Personal 
+         :caption: Personal
          :maxdepth: 2
 
          about_me
@@ -74,7 +74,7 @@ Welcome to Chang-Hong Chen's space
    .. grid-item::
 
       .. toctree::
-         :caption: Projects 
+         :caption: Projects
          :maxdepth: 1
 
          Projects/cv
@@ -86,13 +86,13 @@ Welcome to Chang-Hong Chen's space
    .. grid-item::
 
       .. toctree::
-         :caption: Learnings 
+         :caption: Learnings
          :maxdepth: 1
 
          Kalman Filter <https://longhongc.notion.site/Kalman-Filter-48e71f65d6334cda819a8394cef5ab1c>
 
 .. toctree::
-   :caption: Life 
+   :caption: Life
    :hidden:
    :maxdepth: 2
 

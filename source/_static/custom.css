@@ -10,9 +10,9 @@
 .myquote blockquote:before {
   color: #ccc;
   content: open-quote;
-  font-size: 4em;
+  font-size: 3em;
   line-height: 0.1em;
-  margin-right: 0.25em;
+  margin-right: 0.2em;
   vertical-align: -0.4em;
 }
 .myquote blockquote p {
@@ -33,19 +33,5 @@
   iframe {
     width: 100% !important;
     height: 900px;
-  }
-}
-
-@media (max-width: 1080px) {
-  .wy-nav-content {
-    padding: 0;
-  }
-
-  .wy-nav-side {
-    border-right: none;
-  }
-
-  .wy-side-scroll {
-    border-right: none;
   }
 }
